@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <title>Recipe Detail</title>
+</head>
+
+<body>
+    <!-- PRE NAV -->
+    <div class="d-none d-lg-block border-bottom border-3 bg-maroon">
+        <div class="container-fluid w-75 d-lg-flex justify-content-between py-4 text-light">
+            <div class="d-flex align-items-center justify-content-center mb-2 mb-lg-0">
+                <i class="fa-solid fa-headphones me-2 text-warning"></i>
+                <div>
+                    <span class="fw-bold">+123 234 567</span>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+                <span>ORDERS ABOVE $300 WILL BE SHIPPED FREE OF COST.</span>
+            </div>
+            <div class="d-none d-lg-flex">
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="social-links" href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.PRE NAV -->
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-maroon">
+        <div class="container-fluid w-75 py-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span role="button">
+                    <i class="fa-solid fa-bars text-warning p-1" aria-hidden="true"></i>
+                </span>
+            </button>
+            <a class="navbar-brand fs-3 text-light fw-bold" href="#">
+                GOOD MEAT
+            </a>
+
+            <div class="collapse navbar-collapse py-2" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3 dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Meat
+                            <i class="fa-solid fa-angle-down fa-xs text-warning ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="product-detail.html">Beef</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Mutton</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Chicken</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Seafood</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Camel</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3 dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                            <i class="fa-solid fa-angle-down fa-xs text-warning ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="product.html">Product</a></li>
+                            <li><a class="dropdown-item" href="recipes.html">Recipes</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="butcher.html">Butcher</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="me-3">
+                <button class="btn btn-bg"><a href="product.html#product">ORDER NOW</a></button>
+            </div>
+        </div>
+    </nav>
+    <!-- /NAVIGATION -->
+
+    <!-- HERO -->
+    <div class="container-fluid p-3 p-lg-5"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Recipes/background-2.jpg); background-size: cover; background-position: 50%;">
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center my-5">
+            <h1 class="display-4 fw-bold pt-3">RECIPE DETAIL</h1>
+            <p class="text-grey">Home / Recipe / Recipe Detail</p>
+        </div>
+    </div>
+    <!-- /.HERO -->
+
+    <!-- RECIPE-DETAIL -->
+    <section class="product bg-dark py-5">
+        <div class="container-fluid my-5" style="width: 65%;">
+            <h2 class="display-4">Beef Steak Ribeye Grilled</h2>
+            <div class="row">
+                <div class="col col-12 col-lg-8">
+                    <div class="mt-4">
+                        <img class="img-fluid rounded-2 py-4"
+                            src="../images/Recipes/steak-ribeye-grilled-with-pepper-garlic.jpg" alt=""
+                            style="max-height: 480px; width: 100%; object-fit: cover;">
+                            <p class="text-grey">Given enough time to penetrate tissue, salt works flavor magic: It
+                                denatures proteins, breaking up their molecular strands into shorter amino acids — among
+                                them an abundance of glutamic acid, the essence of umami — to release a complex symphony
+                                of savory flavors. Rich cuts of meat, like a bone-in rib-eye, benefit from a dry brine
+                                and air dry, which concentrates flavor. Seasoning ahead of time increases iron-y notes
+                                in prime-graded cuts of meat and breaks down the connective tissue, resulting in an
+                                especially juicy steak.</p>
+                        <h3 class="display-6 my-4">Overview</h3>
+                        <div class="row row-cols-2 row-cols-md-4 g-4">
+                            <div class="col">
+                                <div class="bg-maroon d-flex flex-column justify-content-start align-items-center py-3">
+                                    <h3 class="text-warning">1 HR</h3>
+                                    <h4>Prep Time</h4>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bg-maroon d-flex flex-column justify-content-start align-items-center py-3">
+                                    <h3 class="text-warning">1 HR 25 MIN</h3>
+                                    <h4>Total Time</h4>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bg-maroon d-flex flex-column justify-content-start align-items-center py-3">
+                                    <h3 class="text-warning">MEDIUM</h3>
+                                    <h4>Skill Level</h4>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bg-maroon d-flex flex-column justify-content-start align-items-center py-3">
+                                    <h3 class="text-warning">3</h3>
+                                    <h4>Servings</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h3 class="display-6 my-4">Instructions</h3>
+                            <div class="row row-cols-1 gy-3">
+                                <div class="col">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                        <p class="fs-5 my-auto">Step 1</p>
+                                    </div>
+                                    <p class="text-grey mt-2">Holding salt about 1 foot above steaks,
+                                        sprinkle both sides of steaks evenly with salt in a steady stream,
+                                        pressing slightly to adhere. Place steaks on a wire rack set inside a
+                                        rimmed baking sheet. Chill, uncovered, 72 hours, turning twice a day.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                        <p class="fs-5 my-auto">Step 2</p>
+                                    </div>
+                                    <p class="text-grey mt-2">Remove steaks from refrigerator. Let stand 1 hour. Preheat
+                                        oven to 400°F. Heat oil in a 12-inch cast-iron skillet over high. Sprinkle
+                                        steaks evenly with pepper. When a wisp of smoke rises from skillet, add steaks
+                                        in a single layer, and cook, undisturbed, until a light brown crust forms, about
+                                        4 minutes. Flip steaks, and cook 4 minutes. Using tongs, turn steaks on fatty
+                                        edges, leaning steaks against sides of skillet to keep them stable, if needed.
+                                        Cook, rolling occasionally to render fat on edges, until caramelized all over, 4
+                                        to 5 minutes. Place steaks flat in skillet, and add butter and garlic around
+                                        steaks.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                        <p class="fs-5 my-auto">Step 3</p>
+                                    </div>
+                                    <p class="text-grey mt-2">Transfer skillet to preheated oven. Roast steaks 5
+                                        minutes. Transfer skillet to stovetop over medium. Slightly tilt skillet toward
+                                        you so butter pools in bottom of skillet; spoon brown butter over steaks.
+                                        Carefully flip steaks, and baste again. Return skillet to oven, and roast until
+                                        a thermometer inserted in thickest portion registers 120°F, 4 to 6 minutes.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                        <p class="fs-5 my-auto">Step 4</p>
+                                    </div>
+                                    <p class="text-grey mt-2">Transfer steaks to a cutting board, and let rest 10
+                                        minutes. Remove bones, and separate fatty strip from each steak. Slice steak
+                                        thinly against the grain, and reassemble steaks on a platter, fanning slices out
+                                        slightly. Arrange bones on plates; sprinkle steaks with sel gris.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-3 gy-4 gy-sm-0 my-1 my-sm-5">
+                            <div class="col">
+                                <img class="img-fluid rounded-2 img-hover" src="../images/Recipes/grilled-steak-with-melted-barbeque.jpg"
+                                    alt="" style="width: 100%;">
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid rounded-2 img-hover"
+                                    src="../images/Recipes/Grilled rib eye beef steak, herbs and spices.jpg" alt=""
+                                    style="width: 100%;">
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid rounded-2 img-hover"
+                                    src="../images/Recipes/Grilled steak with melted barbeque sauce.jpg" alt="" style="width: 100%;">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h3 class="display-6 mb-3">Chef's Tip</h3>
+                            <p class="text-grey">Bringing steaks up to room temperature before cooking will allow for more even cooking of the steaks. Cooking steaks over indirect heat will allow for a more even cooking throughout the steak.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-12 col-lg-4">
+                    <div class="row row-cols-1 mt-5">
+                        <div class="col">
+                            <div
+                                class="bg-maroon p-4 d-flex justify-content-center align-items-center text-center">
+                                <p class="my-auto">Jaw-dropping centerpiece dishes require two essentials: salt and time. Preseasoning is the simplest thing you can do to make a good piece of meat great.</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="border border-warning p-4 mt-4">
+                                <h3 class="display-6 mb-4">Ingredients</h3>
+                                <div class="row row-cols-1 gy-2">
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">1 tablespoon Diamond Crystal kosher salt
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">2 (1 1/2-pound) 1 1/2-inch-thick bone-in
+                                                rib
+                                                eye steaks</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">2 tablespoons grapeseed oil</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">2 teaspoons black pepper</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">1/4 cup unsalted butter, cut into pieces
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">2 garlic cloves</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex justify-content-start align-items-center">
+                                            <i class="fa-regular fa-circle-dot fs-5 me-3 text-red"></i>
+                                            <p class="text-grey fs-5 my-auto">Sel gris</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mt-4 p-4 d-flex flex-column justify-content-center align-items-center border border-warning">
+                                <h3 class="h3 text-center">More Recipes</h3>
+                                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-1 gy-4 mt-2">
+                                    <div class="col">
+                                        <img class="img-fluid img-hover rounded-2 w-100" src="../images/Recipes/chicken-liver-offal-with-onions-tomatoes.jpg" alt="">
+                                        <div class="d-flex flex-column justify-content-center align-items-center mt-3 text-center">
+                                                <h4 class="h4">Chicken Liver Offal With Onions</h4>
+                                                <a href="#" class="text-red card-links mt-2">View Recipe</a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img class="img-fluid img-hover rounded-2 w-100" src="../images/Recipes/barbecue-steak-tbone-with-grilled-vegetables.jpg" alt="">
+                                        <div class="d-flex flex-column justify-content-center align-items-center mt-3 text-center">
+                                                <h4 class="h4">T-bone Mutton Steak BBQ</h4>
+                                                <a href="#" class="text-red card-links mt-2">View Recipe</a>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <img class="img-fluid img-hover rounded-2 w-100" src="../images/Recipes/shrimps-with-spices.jpg" alt="">
+                                        <div class="d-flex flex-column justify-content-center align-items-center mt-3 text-center">
+                                                <h4 class="h4">Stir-Fried Shrimps</h4>
+                                                <a href="#" class="text-red card-links mt-2">View Recipe</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mt-4 p-5 bg-maroon">
+                            <h3 class="h3 text-grey text-center">Follow Us On</h3>
+                            <div class="mt-4 d-flex justify-content-center align-items-center">
+                                <a class="social-links me-3" href="#">
+                                    <i class="fa-brands fa-facebook-f fs-4"></i>
+                                </a>
+                                <a class="social-links me-3" href="#">
+                                    <i class="fa-brands fa-twitter fs-4"></i>
+                                </a>
+                                <a class="social-links me-3" href="#">
+                                    <i class="fa-brands fa-instagram fs-4"></i>
+                                </a>
+                                <a class="social-links" href="#">
+                                    <i class="fa-brands fa-youtube fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- /.RECIPE-DETAIL -->
+
+    <!-- FOOTER -->
+    <footer class="footer bg-maroon py-5">
+        <div class="container-fluid w-75 my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 py-5">
+                <div class="col d-flex justify-content-center align-items-center text-center">
+                    <a href="#">
+                        <h3 class="display-5">GOOD <br> MEAT</h3>
+                    </a>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="recipes.html">Recipes</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="reviews.html">Reviews</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Meat</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Beef Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Turket Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Lamb Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Venison Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Horse Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Fish Meat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Information</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-headphones me-2 text-warning"></i>
+                                <p class="text-grey my-auto">+123 234 567</p>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-envelope me-2 text-warning"></i>
+                                <p class="text-grey my-auto">goodmeats@email.com</p>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+                                <p class="text-grey my-auto">123 Rolfson Skyway Suite 456</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <div class="mb-4">
+                            <h4>Follow us on:</h4>
+                        </div>
+                        <div class="d-flex">
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="social-links" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-warning text-center pt-4">
+                <span id="copyright">
+                    COPYRIGHT
+                    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    © GOOD MEAT. All Rights Reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- /.FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

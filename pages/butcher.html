@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <title>Butcher</title>
+</head>
+
+<body>
+    <!-- PRE NAV -->
+    <div class="d-none d-lg-block border-bottom border-3 bg-maroon">
+        <div class="container-fluid w-75 d-lg-flex justify-content-between py-4 text-light">
+            <div class="d-flex align-items-center justify-content-center mb-2 mb-lg-0">
+                <i class="fa-solid fa-headphones me-2 text-warning"></i>
+                <div>
+                    <span class="fw-bold">+123 234 567</span>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+                <span>ORDERS ABOVE $300 WILL BE SHIPPED FREE OF COST.</span>
+            </div>
+            <div class="d-none d-lg-flex">
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="social-links" href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.PRE NAV -->
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-maroon">
+        <div class="container-fluid w-75 py-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span role="button">
+                    <i class="fa-solid fa-bars text-warning p-1" aria-hidden="true"></i>
+                </span>
+            </button>
+            <a class="navbar-brand fs-3 text-light fw-bold" href="#">
+                GOOD MEAT
+            </a>
+
+            <div class="collapse navbar-collapse py-2" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3 dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Meat
+                            <i class="fa-solid fa-angle-down fa-xs text-warning ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="product-detail.html">Beef</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Mutton</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Chicken</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Seafood</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Camel</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3 dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                            <i class="fa-solid fa-angle-down fa-xs text-warning ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="product.html">Product</a></li>
+                            <li><a class="dropdown-item" href="recipes.html">Recipes</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="butcher.html">Butcher</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="me-3">
+                <button class="btn btn-bg"><a href="product.html#product">ORDER NOW</a></button>
+            </div>
+        </div>
+    </nav>
+    <!-- /NAVIGATION -->
+
+    <!-- HERO -->
+    <div class="container-fluid p-3 p-lg-5"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Butcher/background.jpg); background-size: cover; background-position: 50%;">
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center my-5">
+            <h1 class="display-4 fw-bold pt-3">OUR BUTCHER</h1>
+            <p class="text-grey">Home / Butcher</p>
+        </div>
+    </div>
+    <!-- /.HERO -->
+
+    <!-- BUTCHER-INTRO -->
+    <section class="detail bg-dark py-5 border-bottom border-warning">
+        <div class="container-fluid w-75 my-5">
+            <div class="row row-cols-1 row-cols-lg-2 gy-5 gy-lg-0 d-flex justify-content-end align-items-center">
+                <div class="col">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="butcher-img position-relative">
+                            <img class="img-fluid rounded-2"
+                                src="../images/Butcher/bearded-meat-seller-dressed-fleece-shirt-serving-fresh-cut-meat.jpg"
+                                alt="" style="max-width: 460px; height: 540px; object-fit: cover;">
+                            <div class="position-absolute bg-maroon py-3 px-5 text-center d-none d-sm-block"
+                                style="top: 20%; left: -20%;">
+                                <h3 class="fs-1">20<span class="text-warning fs-6 ms-2">Th</span></h3>
+                                <h4 class="text-grey h4">Shop Experience</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="ps-0 ps-lg-5 ps-xl-3 pt-4 pt-lg-0">
+                        <p class="text-warning">INTRODUCE</p>
+                        <h2 class="display-3 fw-bold">The Quality of Meat <br> You're Looking For</h2>
+                        <p class="text-grey py-3">Nullam enim augue, venenatis nec odio consequat, sagittis ullamcorper
+                            neque. Nulla dolor nisl, maximus at dolor nec, sodales pharetra felis. Etiam
+                            hendrerit.</p>
+                        <div class="row row-cols-1 row-cols-sm-2 gy-4 py-3">
+                            <div class="col">
+                                <div class="d-flex justify-content-centerstart align-items-center">
+                                    <i class="fa-regular fa-lightbulb display-5 text-red me-3"></i>
+                                    <div class="">
+                                        <h4>Our Vison</h4>
+                                        <p class="text-grey">Lorem ipsum dolor sit <br> amet consectetur adipisi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <i class="fa-solid fa-heart-pulse display-5 text-red me-3"></i>
+                                    <div class="">
+                                        <h4>Our Mission</h4>
+                                        <p class="text-grey">Lorem ipsum dolor sit <br> amet consectetur adipisi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-start mb-4" style="border-color: #bf0413 !important;">
+                            <h4 class="ms-4 fst-italic lh-base my-auto">"Quisque ultrices tortor sit amet est elementum, vitae viverra ligula varius. Curabitur quis elit quis odio cursus tincidunt ullamcorper non sem."</h4>
+                        </div>
+                        <div class="">
+                            <h3 class="">Baron Mordo</h3>
+                            <h5 class="text-warning">GOOD MEAT OWNER</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.BUTCHER-INTRO -->
+
+    <!-- TEAM -->
+    <div class="container-fluid px-0 py-5 bg-dark product">
+        <div class="w-75 mx-auto d-flex align-items-center justify-content-center my-5">
+            <div class="row d-block d-lg-flex justify-content-center align-items-center text-light gx-4 gy-4 gy-lg-0">
+                <div class="col">
+                    <p class="text-warning">OUR BUTCHER</p>
+                    <h2 class="display-5 fw-bold">Meet The Expert</h2>
+                </div>
+                <div class="col text-start">
+                    <p class="lh-lg text-grey">Lorem, ipsum dolor sit amet consectetur
+                        elit. Eligendi tenetur, illum reiciendis
+                        molestiae tempore magni quibusdam ipsam maiores iure perferendis quos vel facere cum. Cupiditate
+                        magni sit illo fugiat veritatis.</p>
+                </div>
+                <div class="row row-cols-2 row-cols-lg-4 g-4 pt-5">
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-4 img-hover"
+                                src="../images/Butcher/portrait-bearded-meat-man-dressed-fleece-shirt-holds-fresh-cut-meat-market.jpg"
+                                alt="" width="280px" style="max-height: 420px;">
+                            <div class="mt-3">
+                                <h3 class="h3">Baron Mordo</h3>
+                                <h4 class="text-warning h4">Goodmeat Owner</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-4 img-hover"
+                                src="../images/Butcher/smiling-butcher-with-raw-meat.jpg" alt="" width="280px"
+                                style="max-height: 420px;">
+                            <div class="mt-3">
+                                <h3 class="h3">Cris Hammer</h3>
+                                <h4 class="text-warning h4">Butcher</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-4 img-hover"
+                                src="../images/Butcher/butcher-wearing-uniform-holding-sausages-storage-room.jpg" alt=""
+                                width="280px" style="max-height: 420px;">
+                            <div class="mt-3">
+                                <h3 class="h3">Eddie Gordo</h3>
+                                <h4 class="text-warning h4">Butcher</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-4 img-hover"
+                                src="../images/Butcher/chef-using-ax-while-cutting-big-piece-beef-wooden-board-restaurant-kitchen.jpg"
+                                alt="" max-width="280px" style="max-height: 420px;">
+                            <div class="mt-3">
+                                <h3 class="h3">Michael Keanu</h3>
+                                <h4 class="text-warning h4">Butcher</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.TEAM -->
+
+    <!-- CLIENTS -->
+    <div class="banner container-fluid bg-maroon px-0 py-4">
+        <div
+            class="row row-cols-2 row-cols-sm-3 row-cols-md-5 w-75 mx-auto text-warning d-flex align-items-start justify-content-center g-5 my-4">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="../images/Clients/clients-1.png" alt="Logo" width="120px">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="../images/Clients/clients-2.png" alt="Logo" width="120px">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="../images/Clients/clients-3.png" alt="Logo" width="120px">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="../images/Clients/clients-4.png" alt="Logo" width="120px">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid" src="../images/Clients/clients-5.png" alt="Logo" width="120px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.CLIENTS -->
+
+    <!-- CHOOSE US -->
+    <section class="choose-us bg-dark py-5">
+        <div class="container-fluid w-75 my-5">
+            <div class="row row-cols-1 row-cols-lg-2 gx-lg-5 gy-5 gy-lg-0">
+                <div class="col">
+                    <div class="">
+                        <p class="text-warning">WHY CHOOSE US</p>
+                        <h2 class="display-3 fw-bold">Choose The Best, <br> Choose Us</h2>
+                        <p class="text-grey pe-5 py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non,
+                            praesentium! Velit impedit earum sapiente, hic facilis delectus repellendus sequi nemo
+                            commodi numquam ducimus corrupti, eius, quas asperiores eaque mollitia harum laboriosam
+                            architecto assumenda ut.</p>
+                        <div class="row row-cols-1 gy-4">
+                            <div class="col">
+                                <div class="bg-maroon px-3 py-2 d-flex justify-content-start align-items-center">
+                                    <i class="fa-solid fa-award display-5 me-4 text-warning"></i>
+                                    <div class="d-flex flex-column justify-content-center align-items-start">
+                                        <h3 class="h3 my-1">Best Meat Shop Awards (2018)</h3>
+                                        <p class="text-grey my-1">Lorem ipsum dolor sit amet, consectetur adipisicing Illum
+                                            obcaecati.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bg-maroon px-3 py-2 d-flex justify-content-start align-items-center">
+                                    <i class="fa-solid fa-award display-5 me-4 text-warning"></i>
+                                    <div class="d-flex flex-column justify-content-center align-items-start">
+                                        <h3 class="h3 my-1">The Best Meat Awards (2019)</h3>
+                                        <p class="text-grey my-1">Lorem ipsum dolor sit amet, consectetur adipisicing Illum
+                                            obcaecati.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="bg-maroon px-3 py-2 d-flex justify-content-start align-items-center">
+                                    <i class="fa-solid fa-award display-5 me-4 text-warning"></i>
+                                    <div class="d-flex flex-column justify-content-center align-items-start">
+                                        <h3 class="h3 my-1">Famous Meat Awards (2020)</h3>
+                                        <p class="text-grey my-1">Lorem ipsum dolor sit amet, consectetur adipisicing Illum
+                                            obcaecati.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-5 mt-lg-0">
+                    <div class="p-5 border border-warning">
+                        <img class="img-fluid mb-5"
+                            src="../images/About/A guy in a leather apron is slicing raw meat. The butcher cuts the pork ribs.jpg"
+                            alt="">
+                        <div class="">
+                            <div class="mb-4">
+                                <div class=" d-flex align-items-center justify-content-between">
+                                    <h4>Meat Quality</h4>
+                                    <h4>97%</h4>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-warning" style="width: 97%"></div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class=" d-flex align-items-center justify-content-between">
+                                    <h4>Butcher Skills</h4>
+                                    <h4>93%</h4>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-warning" style="width: 93%"></div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class=" d-flex align-items-center justify-content-between">
+                                    <h4>Tool Cleanliness</h4>
+                                    <h4>93%</h4>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-warning" style="width: 93%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.CHOOSE US -->
+
+    <!-- FOOTER -->
+    <footer class="footer bg-maroon py-5">
+        <div class="container-fluid w-75 my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 py-5">
+                <div class="col d-flex justify-content-center align-items-center text-center">
+                    <a href="#">
+                        <h3 class="display-5">GOOD <br> MEAT</h3>
+                    </a>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="recipes.html">Recipes</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="reviews.html">Reviews</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Meat</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Beef Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Turket Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Lamb Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Venison Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Horse Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Fish Meat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Information</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-headphones me-2 text-warning"></i>
+                                <p class="text-grey my-auto">+123 234 567</p>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-envelope me-2 text-warning"></i>
+                                <p class="text-grey my-auto">goodmeats@email.com</p>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+                                <p class="text-grey my-auto">123 Rolfson Skyway Suite 456</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <div class="mb-4">
+                            <h4>Follow us on:</h4>
+                        </div>
+                        <div class="d-flex">
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="social-links" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-warning text-center pt-4">
+                <span id="copyright">
+                    COPYRIGHT
+                    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    © GOOD MEAT. All Rights Reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- /.FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

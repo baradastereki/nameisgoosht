@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <title>FAQ</title>
+</head>
+
+<body>
+    <!-- PRE NAV -->
+    <div class="d-none d-lg-block border-bottom border-3 bg-maroon">
+        <div class="container-fluid w-75 d-lg-flex justify-content-between py-4 text-light">
+            <div class="d-flex align-items-center justify-content-center mb-2 mb-lg-0">
+                <i class="fa-solid fa-headphones me-2 text-warning"></i>
+                <div>
+                    <span class="fw-bold">+123 234 567</span>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+                <span>ORDERS ABOVE $300 WILL BE SHIPPED FREE OF COST.</span>
+            </div>
+            <div class="d-none d-lg-flex">
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="me-3 social-links" href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="social-links" href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.PRE NAV -->
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-maroon">
+        <div class="container-fluid w-75 py-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span role="button">
+                    <i class="fa-solid fa-bars text-warning p-1" aria-hidden="true"></i>
+                </span>
+            </button>
+            <a class="navbar-brand fs-3 text-light fw-bold" href="#">
+                GOOD MEAT
+            </a>
+
+            <div class="collapse navbar-collapse py-2" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3 dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Meat
+                            <i class="fa-solid fa-angle-down fa-xs text-warning ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="product-detail.html">Beef</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Mutton</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Chicken</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Seafood</a></li>
+                            <li><a class="dropdown-item" href="product-detail.html">Camel</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3 dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                            <i class="fa-solid fa-angle-down fa-xs text-warning ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item" href="product.html">Product</a></li>
+                            <li><a class="dropdown-item" href="recipes.html">Recipes</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="butcher.html">Butcher</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-3">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="me-3">
+                <button class="btn btn-bg"><a href="product.html#product">ORDER NOW</a></button>
+            </div>
+        </div>
+    </nav>
+    <!-- /NAVIGATION -->
+
+    <!-- HERO -->
+    <div class="container-fluid p-3 p-lg-5"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/faq/background.jpg); background-size: cover; background-position: 50%;">
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center my-5">
+            <h1 class="display-4 fw-bold pt-3">FREQUENTLY ASKED QUESTIONS</h1>
+            <p class="text-grey">Home / Faqs</p>
+        </div>
+    </div>
+    <!-- /.HERO -->
+
+    <!-- FAQs -->
+    <section class="faq bg-dark py-5 ">
+        <div class="container-fluid my-5 w-50">
+            <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                <p class="text-warning">FAQ</p>
+                <h2 class="display-3">Most Favorite Questions</h2>
+                <p class="text-grey mt-3">Aenean id pellentesque sem. Nam ornare tempor sapien in sodales. Quisque
+                    sed
+                    iaculis lacus. Suspendisse accumsan tellus in nibh
+                    eleifend posuere. Mauris vehicula gravida laoreet. Suspendisse pulvinar erat egestas ipsum sagittis.
+                </p>
+            </div>
+
+
+            <div class="row row-cols-1 mt-5">
+                <div class="col">
+                    <div class="">
+                        <p
+                            class="d-inline-flex justify-content-between align-items-center gap-1 my-auto border w-100 p-3 mb-3">
+                            <a class="faq-text me-3" data-bs-toggle="collapse" href="#collapse-1" role="button"
+                                aria-expanded="false" aria-controls="collapse-1">
+                                Is There a Minimum Purchase to Get Free Shipping?
+                            </a>
+                            <i class="fa-solid fa-minus fs-5 faq-icon"></i>
+                        </p>
+                        <div class="collapse" id="collapse-1">
+                            <div class="card card-body bg-dark overflow-visible">
+                                <p class="text-grey">
+                                    Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts. Separated they live
+                                    in Bookmarksgrove right at the coast
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="">
+                        <p
+                            class="d-inline-flex justify-content-between align-items-center gap-1 my-auto border w-100 p-3 mb-3">
+                            <a class="faq-text me-3" data-bs-toggle="collapse" href="#collapse-2" role="button"
+                                aria-expanded="false" aria-controls="collapse-2">
+                                What Are The Ingredients And Nutritional Information For The Products?
+                            </a>
+                            <i class="fa-solid fa-minus fs-5 faq-icon"></i>
+                        </p>
+                        <div class="collapse" id="collapse-2">
+                            <div class="card card-body bg-dark overflow-visible">
+                                <p class="text-grey">
+                                    Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts. Separated they live
+                                    in Bookmarksgrove right at the coast
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="">
+                        <p
+                            class="d-inline-flex justify-content-between align-items-center gap-1 my-auto border w-100 p-3 mb-3">
+                            <a class="faq-text me-3" data-bs-toggle="collapse" href="#collapse-3" role="button"
+                                aria-expanded="false" aria-controls="collapse-3">
+                                What is Your Return Policy?
+                            </a>
+                            <i class="fa-solid fa-minus fs-5 faq-icon"></i>
+                        </p>
+                        <div class="collapse" id="collapse-3">
+                            <div class="card card-body bg-dark">
+                                <p class="text-grey">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum veritatis
+                                    perspiciatis inventore nihil atque itaque sit consequuntur consectetur?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="">
+                        <p
+                            class="d-inline-flex justify-content-between align-items-center gap-1 my-auto border w-100 p-3 mb-3">
+                            <a class="faq-text me-3" data-bs-toggle="collapse" href="#collapse-4" role="button"
+                                aria-expanded="false" aria-controls="collapse-4">
+                                How Are Your Products Shipped?
+                            </a>
+                            <i class="fa-solid fa-minus text faq-icon"></i>
+                        </p>
+                        <div class="collapse" id="collapse-4">
+                            <div class="card card-body bg-dark">
+                                <p class="text-grey">
+                                    Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts. Separated they live
+                                    in Bookmarksgrove right at the coast
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="">
+                        <p
+                            class="d-inline-flex justify-content-between align-items-center gap-1 my-auto border w-100 p-3 mb-3">
+                            <a class="faq-text me-3" data-bs-toggle="collapse" href="#collapse-5" role="button"
+                                aria-expanded="false" aria-controls="collapse-5">
+                                Do You Sell Cooked Meat too?
+                            </a>
+                            <i class="fa-solid fa-minus text faq-icon"></i>
+                        </p>
+                        <div class="collapse" id="collapse-5">
+                            <div class="card card-body bg-dark">
+                                <p class="text-grey">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus reiciendis sed
+                                    doloremque enim pariatur, dolore beatae eaque quisquam nam, voluptas nihil dicta cum
+                                    quasi, voluptatum quae illum animi ab accusamus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="">
+                        <p
+                            class="d-inline-flex justify-content-between align-items-center gap-1 my-auto border w-100 p-3 mb-3">
+                            <a class="faq-text me-3" data-bs-toggle="collapse" href="#collapse-6" role="button"
+                                aria-expanded="false" aria-controls="collapse-6">
+                                What Types of Payment Are Accepted?
+                            </a>
+                            <i class="fa-solid fa-minus fs-5 faq-icon"></i>
+                        </p>
+                        <div class="collapse" id="collapse-6">
+                            <div class="card card-body bg-dark">
+                                <p class="text-grey">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat mollitia aperiam
+                                    alias. Reiciendis placeat voluptates et nihil ullam ut impedit aliquam praesentium,
+                                    saepe nulla, sit, temporibus repellendus blanditiis quae fuga.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.FAQs -->
+
+    <!-- QUESTION-FORM -->
+    <section class="detail bg-dark py-5">
+        <div class="container-fluid w-75 my-5">
+            <div class="row row-cols-1 row-cols-lg-2 gy-5 gy-lg-0 d-flex justify-content-center align-items-center">
+                <div class="col">
+                    <div class="ps-0 ps-lg-5 ps-xl-3 pt-4 pt-lg-0">
+                        <p class="text-warning">QUESTION FORM</p>
+                        <h2 class="display-3 fw-bold">Send Your Questions</h2>
+                        <p class="text-grey py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A quasi dignissimos, vero aperiam saepe tenetur eum, incidunt culpa architecto repellat blanditiis qui voluptas? Atque, voluptatibus enim, obcaecati excepturi tempora ratione dolorum reprehenderit ipsam, iusto recusandae debitis.</p>
+                        <div class="py-3">
+                            <form method="post" action="" class="faq-question">
+                                <div class="input-group mb-4">
+                                    <input type="text" class="form-control" placeholder="Name" aria-label="name"
+                                        aria-describedby="basic-addon1" required>
+                                </div>
+        
+                                <div class="input-group mb-4">
+                                    <input type="text" class="form-control" id="email" placeholder="Email"
+                                        aria-describedby="basic-addon3 basic-addon4" required>
+                                </div>
+        
+                                <div class="input-group">
+                                    <textarea class="form-control" placeholder="Question"
+                                        aria-label="With textarea" required></textarea>
+                                </div>
+                                <div class="mt-4">
+                                    <button class="btn btn-bg">SEND QUESTION</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
+                    <div class="ms-lg-4 w-100 d-flex justify-content-end align-items-center position-relative z-0 py-2 py-sm-3 py-md-5">
+                        <div class="bg-maroon text-center py-3"
+                            style="width: 280px;">
+                            <h3 class="fs-1">15<span class="text-warning fs-6 ms-2">K</span></h3>
+                            <h4 class="text-grey h4">Customer Questions</h4>
+                        </div>
+                        <div class="position-absolute z-n1 detail-img" style="right: 25%;">
+                            <img class="rounded-2"
+                                src="../images/FAQ/Young butcher holding raw meat steaks.jpg" alt=""
+                                style="height: 540px; max-width: 360px; object-fit: cover; object-position: 65%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.QUESTION-FORM -->
+
+    <!-- CONTACT-DETAILS -->
+    <section class="bg-dark py-5">
+        <div class="container-fluid my-0 my-lg-5">
+            <div class="text-center">
+                <h3 class="display-5">Still Have Questions<span class="text-warning">?</span></h3>
+                <p class="text-grey mt-3">No worries, just give us a call at +123 234 567 <br> we always look forward to
+                    the opportunity to speak with our customers.</p>
+            </div>
+        </div>
+    </section>
+    <!-- /.CONTACT-DETAILS -->
+
+    <!-- FOOTER -->
+    <footer class="footer bg-maroon py-5">
+        <div class="container-fluid w-75 my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 py-5">
+                <div class="col d-flex justify-content-center align-items-center text-center">
+                    <a href="#">
+                        <h3 class="display-5">GOOD <br> MEAT</h3>
+                    </a>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="recipes.html">Recipes</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="reviews.html">Reviews</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Meat</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Beef Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Turket Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Lamb Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Venison Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Horse Meat</a>
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-circle-dot me-2 text-warning"></i>
+                                <a href="product-detail.html">Fish Meat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col d-md-block d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-4">
+                        <h4>Information</h4>
+                    </div>
+                    <div class="footer-links-list">
+                        <ul>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-headphones me-2 text-warning"></i>
+                                <p class="text-grey my-auto">+123 234 567</p>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-envelope me-2 text-warning"></i>
+                                <p class="text-grey my-auto">goodmeats@email.com</p>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center">
+                                <i class="fa-solid fa-location-dot me-2 text-warning"></i>
+                                <p class="text-grey my-auto">123 Rolfson Skyway Suite 456</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-4">
+                        <div class="mb-4">
+                            <h4>Follow us on:</h4>
+                        </div>
+                        <div class="d-flex">
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a class="me-3 social-links" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="social-links" href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top border-warning text-center pt-4">
+                <span id="copyright">
+                    COPYRIGHT
+                    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                    © GOOD MEAT. All Rights Reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- /.FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
